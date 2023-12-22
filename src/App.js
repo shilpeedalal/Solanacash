@@ -63,7 +63,7 @@ function App() {
       </div>
 
       {/* <BgColorExample /> */}
-      < Cryptocurrency />
+      {/* < Cryptocurrency /> */}
       <OurFeatures />
       <EarnSolan />
       <FAQ />
