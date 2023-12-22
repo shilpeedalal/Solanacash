@@ -1,10 +1,35 @@
-.App {
+.App , .Footer{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Footer{
+  text-align: center;
+  background-color: #1E1F23;
+}
+
+.pb-50{
+  padding-bottom: 50px;
+}
+
+.pt-50{
+  padding-top: 50px;
+}
+
+.pt-80{
+  padding-top: 80px;
+}
+
+.fs-40{
+  font-size: 40px;
+}
+
+.btn-outline-primary {
+  border: 1px solid #01d8d0;
+  outline: 0;
+  padding: 20px 25px;
+  font-size: 22px;
+  color: white;
+  --bs-btn-hover-bg: #163d75;
 }
 
 @media (prefers-reduced-motion: no-preference) {
