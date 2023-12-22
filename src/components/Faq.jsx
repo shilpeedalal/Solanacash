@@ -4,9 +4,7 @@ import {Container, Accordion } from "react-bootstrap";
 const FAQ = () => {
 
   return (
-    <>
-      
-      <Container>
+   
         <Container className="pb-50 pt-50" >
           <div className="Faq">
           <h1 className="fw-bolder fs-40" >Frequently Asked Questions</h1>
@@ -43,7 +41,7 @@ const FAQ = () => {
           culpa qui officia deserunt mollit anim id est laborum.
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="0">
+      <Accordion.Item eventKey="2">
         <Accordion.Header style={{backgroundColor: "#1E1F23"}}>
             <p>
             Is Solanacash safe? 
@@ -53,7 +51,7 @@ const FAQ = () => {
         P2P stands for Peer-to-Peer. With P2P trading users buy and sell cryptocurrency between themselves without a third party or intermediary. Since there is no involvement of any third party, users can directly trade with each other more efficiently, profitably and securely.
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="1">
+      <Accordion.Item eventKey="3">
         <Accordion.Header style={{backgroundColor: "#1E1F23"}}>
             <p>Accordion Item #2</p></Accordion.Header>
         <Accordion.Body>
@@ -66,7 +64,7 @@ const FAQ = () => {
           culpa qui officia deserunt mollit anim id est laborum.
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="0">
+      <Accordion.Item eventKey="4">
         <Accordion.Header style={{backgroundColor: "#1E1F23"}}>
             <p>
             Is Solanacash safe? 
@@ -76,7 +74,7 @@ const FAQ = () => {
         P2P stands for Peer-to-Peer. With P2P trading users buy and sell cryptocurrency between themselves without a third party or intermediary. Since there is no involvement of any third party, users can directly trade with each other more efficiently, profitably and securely.
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="1">
+      <Accordion.Item eventKey="5">
         <Accordion.Header style={{backgroundColor: "#1E1F23"}}>
             <p>Accordion Item #2</p></Accordion.Header>
         <Accordion.Body>
@@ -92,8 +90,7 @@ const FAQ = () => {
     </Accordion>
           </div>
         </Container>
-      </Container>
-    </>
+  
   );
 };
 export default FAQ;

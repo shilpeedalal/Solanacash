@@ -7,6 +7,7 @@ import EarnSolan from "./components/EarnSolan";
 import Footer from "./components/Footer";
 import FAQ from "./components/Faq";
 import OurFeatures from "./components/OurFeatures";
+import Cryptocurrency from "./components/Cryptocurrency"
 
 function App() {
   return (
@@ -58,10 +59,11 @@ function App() {
         </Button>
       </div>
       <div className="pt-50 pb-50" style={{ textAlign: "center" }}>
-        <img src={offerImage} alt="offer image" />
+        <img src={offerImage} alt="offer image" className="responsive-image" />
       </div>
 
       {/* <BgColorExample /> */}
+      < Cryptocurrency />
       <OurFeatures />
       <EarnSolan />
       <FAQ />
