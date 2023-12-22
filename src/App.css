@@ -1,10 +1,15 @@
-.App , .Footer{
+.App , .OurFeatures{
   text-align: center;
 }
 
 .Footer{
-  text-align: center;
+  /* text-align: center; */
   background-color: #1E1F23;
+}
+
+.Faq{
+  text-align: center;
+
 }
 
 .pb-50{
@@ -19,18 +24,37 @@
   padding-top: 80px;
 }
 
+.fs-18{
+  font-size: 18px;
+}
+
 .fs-40{
   font-size: 40px;
 }
 
-.btn-outline-primary {
+.fw-bold{
+  font-weight: bold;
+}
+
+.fw-bolder{
+  font-weight: bolder;
+}
+
+.buttonStyle {
+  font-size: 18px;
+  padding: 20px 50px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* .btn-outline-primary {
   border: 1px solid #01d8d0;
   outline: 0;
   padding: 20px 25px;
   font-size: 22px;
   color: white;
   --bs-btn-hover-bg: #163d75;
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -60,4 +84,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.border-center{
+  border: none;
+  background-color: #1E1F23;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 30px;
+  max-width: 500px;
 }
